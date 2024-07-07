@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+}
+a{
+    
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    height: 5vw;
+    width: 68%;
+
+    /* background-color: blue; */
+}
+.social{
+    margin: auto 0;
+    height: 50%;
+    display:flex;
+    gap: 40px;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    /* width: 25%; */
+    justify-content: space-between;
+
+    /* background-color: red; */
+
+}
+.social-img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    /* width: 20%; 
+    scale: 30%; */
+}
+.first-screen{
+    background-color: #4FBFA5;
+    width: 100%;
+    /* height: 100px; */
+    padding: 2% 16%;
+}
+.menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reach-us{
+
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+}
+.first-screen-cotent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 3% 0%;
+    /* background-color:brown; */
+}
+.lamps_description{
+    width: 33%;
+    /* background-color: black; */
+}
+.lamps-more-info{
+    background-color: #00868A;
+    width: 144px;
+    padding: 10px 20px;
+}
+.offers{
+    margin-top: 4%;
+    display:flex;
+    /* align-items: stretch; */
+    justify-content: space-between;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 23%;
+    
+}
+.offer img{
+    /* width: 100%; */
+   
+    object-fit:contain;
+}
+.offer-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00868A;
+    color: white;
+    padding: 8% ;
+    display: flex;
+
+}
+.arrow{
+    border: 1px solid white;
+    width: 18%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow img{
+    width: 20px;
+}
+.new{
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom:80%;
+    left: 10%;
+    width: 60px;
+    height: 40px;
+    background-color: #4FBFA5;
+}
