@@ -29,7 +29,7 @@ function numberSum(N) {
 }
 console.log(numberSum(985));
 
-
+// Task 3
 function fibonacci(base_1, base_2, N) {
     console.log(base_2);
     
@@ -44,6 +44,7 @@ console.log("fibonacci start");
 fibonacci(1,1,8);
 console.log("fibonacci end");
 
+//Task 4
 function isPolindrom(str) {
     if (str.length <= 1) {
         return true;
