@@ -1,0 +1,61 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.list{
+    display: flex;
+}
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 20em;
+    border: 1px black;
+    border-style:dotted;
+}
+button{
+    background-color: rgb(243, 178, 98);
+    border: 1px solid black;
+    
+}
+#add-btn{
+    font-size: 2rem;
+    font-weight: 100;
+    height: 50px;
+    grid-column:  1/3 ;
+}
+select{
+    font-size: 2rem;
+}
+input{
+    font-size: 2rem;
+}
+#searchInput{
+    font-size: 3rem;
+    width: 20rem;
+    /* height: 4em; */
+}
+body{
+    background-color: blanchedalmond;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    /* text-align: end; */
+}
+li{
+    margin: 4px;
+    
+}
+
+
+
+
+
+
+
+

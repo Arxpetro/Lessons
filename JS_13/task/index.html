@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Book lib</h1>
+    <form>
+        <label for="bookName">Название книги :</label>
+        <input type="text" id="bookName" name="bookName">
+        <label for="bookAuthor">Автор книги :</label>
+        <input type="text"  name="bookAuthor" id="bookAuthor">
+        <label for="bookYear">Год издания :</label>
+        <input type="number"  name="bookYear" id="bookYear">
+        <label for="bookPages">Количество страниц :</label>
+        <input type="number"  name="bookPages" id="bookPages">
+        <button id="add-btn">Добавить</button>
+
+    </form>
+    <div>
+        <h3>Search</h3>
+        <input type="text" id="searchInput">
+        
+        <select name="" id="sortSelect">
+            <option value="">Выберите сортровку</option>
+            <option value="name">Название</option>
+            <option value="author">Автор</option>
+            <option value="yearUp">Год (возростание)</option>
+            <option value="yearDown">Год (убывание)</option>
+        </select>
+    </div>    
+        
+    <ul id="bookList"></ul>
+    <script src="./script.js"></script>
+</body>
+</html>

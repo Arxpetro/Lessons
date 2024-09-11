@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="productName">Название товара</label>
+        <input type="text" id="productName" name="productName"><br>
+        <label for="productPrice">Цена товара:</label>
+        <input type="number"  name="productPrice" id="productPrice"><br>
+        <label for="productCount">Количество товара:</label>
+        <input type="number"  name="productCount" id="productCount"><br>
+        <button>Добавить</button>
+
+    </form>
+    <div>
+        <h3>Search</h3>
+        <input type="text" id="searchInput">
+        
+        <select name="" id="sortSelect">
+            <option value="">Выберите сортровку</option>
+            <option value="priceUp">Цена (возростание)</option>
+            <option value="priceDown">Цена (убывание)</option>
+            <option value="countUp">Кол-во (возростание)</option>
+            <option value="countDown">Кол-во (убывание)</option>
+        </select>
+    </div>    
+        
+    <ul id="productList"></ul>
+    <script src="./script.js"></script>
+</body>
+</html>
