@@ -1,0 +1,22 @@
+.selectorBox{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 200px;
+}
+#userInfo{
+    display: flex;
+    /* width: 500px;
+    height: 200px; */
+    background-color: rgb(37, 178, 183);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    background-color: rgb(235, 157, 14);
+    border: 0;
+}
+button:active
+{
+    background-color: rgb(183, 124, 16);
+}
