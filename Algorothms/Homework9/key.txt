@@ -1,3 +1,12 @@
+Хеш-функции используют в блокчейне, при провереке целосности данных, для храния паролей, в цифровых подписях и много где еще.
+
+
+
+
+
+
+
+
 -----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtdqqbCWQZbIJgO9VwTvQBOOEE
 abzR2u2MHKXNHFL9cDXj//v2qJdKDHmmxzt4sGGhNSbNe2pEsPz4phqOyrj3BKeL
