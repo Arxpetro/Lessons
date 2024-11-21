@@ -1,0 +1,45 @@
+
+body{
+    background-color: brown;
+    color:rgb(252 223 187);
+    
+}
+
+#results{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    position: fixed;
+}
+
+#search-input{
+    background-color: rgb(255, 225, 188);
+    color:#000000;
+    border: 1px solid black;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+button{
+    width:124px;
+    height: 30px;
+    background-color: rgb(252 223 187);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 10px ;
+}
+
+span{
+    cursor:pointer;
+    font-size: 40px;
+    
+}
+
