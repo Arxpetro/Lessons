@@ -1,0 +1,101 @@
+
+.features{
+    display: flex;
+    color: $primary-text-color;
+    p{
+        color: $secondary-text-color;
+    }
+    .h1{
+        font-size: 34px;
+        font-weight: 800;
+        width: 38%;
+    }
+    h5{
+        width: 80%;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .feature-list{
+        margin-left: 200px;
+        width: 48%;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 30px;
+    }
+    .gradient-marker{
+        margin-bottom: 5px;
+    }
+    margin-bottom: 100px;
+}
+
+.showcase{
+    display: flex;
+    margin-bottom: 150px;
+    h1{
+        // font-size: 34px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    p{
+        color: $secondary-text-color;
+        line-height: 30px;
+    }
+    .another-text{
+        // padding-bottom: 50px;
+        width: 35%;
+        margin-top: 25%;
+    }
+    img{ 
+        margin-left: 40px;
+        width: 55%;
+    }
+}
+
+.registration-banner{
+    background: $gradient;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 172px;
+    p{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    button{
+        height: 60px;
+        width: 190px;
+        border-radius: 40px;
+        border: none;
+        color: $primary-text-color;
+        background-color: black;
+        font-size: 18px;
+        // font-weight: 700;
+    }
+    margin-bottom:  200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

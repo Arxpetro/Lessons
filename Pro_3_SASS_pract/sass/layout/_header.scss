@@ -1,0 +1,143 @@
+a{
+    color: $primary-text-color;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 20px 0;
+    @include big-screen{
+        padding: 20px 10px;
+    }
+
+    .menu{
+        display: flex;
+        gap: 34px;
+        font-size: 18px;
+        @include big-screen{
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 90px;
+            left: 20px;
+            background-color: #042C54;
+            padding: 25px;
+            
+        }
+    }
+    .buttons{
+        display:flex;
+        align-items: center;
+        gap: 26px;
+        .btn-sign-in{
+            font-size: 18px;
+        }
+        .btn-sign-up{
+            font-size: 18px;
+            background-color: $btn-color;
+            border: none;
+            border-radius: 5px;
+            color: $primary-text-color;
+            padding: 16px 40px;
+        }
+    }
+
+    .hamburger-menu{
+        display:none;
+        @include big-screen{
+            display: block;
+
+        }
+        img{
+            width: 40px;
+        }
+    }
+
+    
+}
+.show{
+    display: flex !important;
+}
+
+
+.header{
+    display:flex;
+    
+    
+    .header-content{
+        width: 55%;
+    }
+    h1{
+        font-size: 62px;
+        font-weight: 800;
+        margin-top: 80px;
+        margin-bottom: 150px;
+    }
+    .email-input{
+        display: flex;
+        height: 73px;
+        font-size: 20px;
+        input{
+            font-family: "Manrope", sans-serif;
+            height: 100%;
+            width: 70%;
+            border:none;
+            background-color: $filler-color;
+            color: $secondary-text-color;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            padding-left: 8%;
+            font-size: 20px;
+            font-weight: 400;
+            
+            
+
+        }
+        ::placeholder{
+            color: #3D6184;
+        }
+        button{
+            font-family: "Manrope", sans-serif;
+            height: 100%;
+            width: 29%;
+            border:none;
+            background-color: $btn-color;
+            color: $primary-text-color;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+    }
+    .requests{
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        color: $primary-text-color;
+        font-size: 12px;
+        img{
+            margin-right: 15px;
+        }
+    }
+}
+
+.companies{
+    width: 50%;
+    display: flex;
+    padding: 60px 0 90px 0;
+    
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+

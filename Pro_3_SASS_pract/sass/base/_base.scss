@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-bg;
+    font-family: "Manrope", sans-serif;
+
+    background-image: url(/img/face.png);
+    background-repeat:no-repeat;
+    background-position: 90%;
+    background-position-y: 70px;
+
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.gradient{
+    font-size: 40px;
+    background: $gradient;
+    background-clip: text;
+    color:transparent;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
