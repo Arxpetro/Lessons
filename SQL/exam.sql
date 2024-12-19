@@ -1,3 +1,59 @@
+-- 1
+create database tasks;
+use tasks;
+
+-- 2
+create table store (
+	id int primary key auto_increment,
+    title varchar(128) not null,
+    price int,
+    quantity int
+);
+
+-- 3
+insert into store(title, price, quantity) values('Skirt',120,  10);
+insert into store(title, price, quantity) values('Shirt', 55, 4);
+insert into store(title, price, quantity) values('Jeanse', 135,  15);
+
+select * from store;
+
+-- 4
+select * from store 
+where price > 100;
+
+-- 5
+select * from store
+where title like 'S%';
+
+-- 6
+SET SQL_SAFE_UPDATES = 0;
+
+update store
+set quantity = quantity + 5
+where title = 'Jeanse';
+
+-- 7
+alter table store
+add column quality int;
+
+-- 8
+update store
+set quality = case
+				when price > 100 then 5
+				else 4
+			   end;
+
+-- 9
+delete from store 
+where quantity < 10;
+
+-- 10
+drop table store;
+
+-- 11
+drop database tasks;
+
+-- 12
 drop database shop;
 CREATE DATABASE shop;
 
